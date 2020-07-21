@@ -1,6 +1,6 @@
 public class BmiService {
-    public long calculate (double height,long weight){
-       double BMI = weight/(height*height);
-       return (long) BMI;
+    public double calculate (double height,long weight){
+       double bmi = weight/(height*height);
+       return (double) bmi;
     }
 }
